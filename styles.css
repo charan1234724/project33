@@ -1,0 +1,50 @@
+nav {
+    background: orange ;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.announcements {
+    background: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+}
+.menu-section {
+    background-color: orange; /* Light background color */
+    padding: 40px 0;          /* Vertical spacing */
+    text-align: center;        /* Centers text */
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: inline-block;     /* Align items horizontally */
+    width: 30%;              /* Fixed width for each item */
+    margin: 15px;              /* Spacing between items */
+    border-radius: 10px;       /* Rounded corners */
+    overflow: hidden;          /* Ensures images stay within the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: orange;    /* Background for each item */
+}
+
+.menu-item img {
+    width: 100%;               /* Full width image */
+    height: 150px;             /* Fixed height for uniformity */
+    object-fit: cover;         /* Ensures images scale properly */
+}
+
+.menu-item h3 {
+    margin: 10px 0;            /* Spacing for text */
+    font-size: 20px;           /* Larger text size */
+    color: #333;               /* Text color */
+}

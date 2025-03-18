@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Digital Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function openForm(formId) {
+            // Hide all forms first
+            const forms = document.querySelectorAll('.form-section');
+            forms.forEach(form => form.style.display = "none");
+
+            // Show the selected form
+            document.getElementById(formId).style.display = "block";
+        }
+    </script>
+</head>
+<body>
+    <nav>
+    <div class="header">
+        <h1><b>Swiggy</b></h1>
+    </div>
+    </nav>
+    <section class="announcements">
+        <input type="text" placeholder="Search for restaurent food item.....">
+    </section>
+    <div class="menu-section">
+        <h2><b><u>Veg,Non-veg menu</u></b></h2>
+        <div class="menu-item">
+            <img src="C:\Users\LENOVO\OneDrive\Desktop\project\project2\biryani.jpeg">
+            <h3>Biryani</h3>
+            <h3>Price: 110 Rs</h3>
+        </div>
+        <div class="menu-item">
+            <img src="C:\Users\LENOVO\OneDrive\Desktop\project\project2\roti.jpeg">
+            <h3>Roti</h3>
+            <h3>price: 95 Rs</h3>
+        </div>
+        <div class="menu-item">
+            <img src="C:\Users\LENOVO\OneDrive\Desktop\project\project2\pizza.avif">
+            <h3>Pizza</h3>
+            <h3>Price: 60 Rs</h3>
+        </div>
+        <div class="menu-item">
+            <img src="C:\Users\LENOVO\OneDrive\Desktop\project\project2\paneer.avif">
+            <h3>Paneer masala</h3>
+            <h3>Price: 70 Rs</h3>
+        </div>
+        <div class="menu-item">
+            <img src="C:\Users\LENOVO\OneDrive\Desktop\project\project2\dal chawal.webp">
+            <h3>Dal chaawal</h3>
+            <h3>Price: 50 Rs</h3>
+        </div>
+        <div class="menu-item">
+            <img src="C:\Users\LENOVO\OneDrive\Desktop\project\project2\Vegi-Fried-Rice.png">
+            <h3>Veg Freid Rice</h3>
+            <h3>Price: 80 Rs</h3>
+        </div>
+    </div>
+</body>
+</html>
